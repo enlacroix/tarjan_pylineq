@@ -1,5 +1,10 @@
 # Применение алгоритма Тарьяна для систем уравнений
-
+В данном репозитории изложены идеи о применении алгоритма Тарьяна для работы с системами (необязательно линейных) уравнений. 
+### Навигация по ключевым моментам
+1. [Пример для проблемы 1: поиск минимального набора](#Пример-1.-Применение-алгоритма)
+2. [Проблема 2: разбиение системы на уравнение и подстановки](#Задача-2.-Обнаружение-последовательности-формальных-подстановок-при-решении-систем-уравнений)
+3. [Вывод программы для проблемы 2](#Результат-работы)
+   
 ## Представление системы уравнений в виде графа
 #### Постановка задачи
 $$
@@ -196,8 +201,8 @@ $$ \left\{\begin{array}{lll}
 x_1 & =A_1\\
 x_2 & = \cos{x_1} + A_2\\
 x_3 & =x_1^2 + x_1 + x_2\\
-x_4 & =A_3\\
-\end{array}\right. $$
+x_4 & =A_3
+end{array}right. $$
 
 Соответствующая матрица $S$:
 
@@ -298,3 +303,7 @@ x_{4}=\frac{x_{6}}{x_{1}}+12 \\
 $$
 
 **Обратите внимание на порядок подстановок: теперь условие вычислимости соблюдается.** 
+
+## Список литературы
+1. _About detection substitutions in nonlinear algebraic equations with help of Tarjan's algorithm_. Isakov A.A., Senichenkov Yu.B., Distributed Computing and Networking department, Saint Petersburg state Polytechnical University
+2. _Minimal Equation Sets for Output Computation in Object-Oriented Models_. Vincenzo Manzoni Francesco Casella Dipartimento di Elettronica e Informazione, Politecnico di Milano.
