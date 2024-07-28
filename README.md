@@ -315,7 +315,7 @@ x_{4}=g_1(x_2, x_5) \\
 \end{array}\right.
 $$
 
-**Обратите внимание на порядок подстановок: теперь условие вычислимости соблюдается.** 
+**Обратите внимание на порядок подстановок: теперь условие вычислимости соблюдается.** Теперь можно решить первую подсистему, которая была отнесена к категории "уравнений". Когда $x_2, x_5$ будут найдены, то через них можно найти и оставшиеся неизвестные. 
 
 ## Список литературы
 1. _About detection substitutions in nonlinear algebraic equations with help of Tarjan's algorithm_. Isakov A.A., Senichenkov Yu.B., Distributed Computing and Networking department, Saint Petersburg state Polytechnical University
