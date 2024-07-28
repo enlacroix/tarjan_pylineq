@@ -21,6 +21,9 @@ class SubstitutionDetector:
 
     def set_matrix(self, matr):
         self.matrix = matr
+        for i in range(self.matrix.shape[0]):
+            if any(elem != 0 for elem in self.matrix[i]):
+                self.in_system.append(i)
         self.initialize()
 
     def cycling_order(self, vertex_idx):
